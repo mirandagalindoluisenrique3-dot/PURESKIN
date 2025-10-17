@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PURESKIN | Maquillaje Vegano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PURESKIN</h1>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#carrito">Carrito</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Maquillaje 100% Vegano y Natural</h2>
+    <p>Descubre la belleza consciente con PURESKIN 🌿</p>
+    <img src="Captura de pantalla 2025-10-17 114247.png" alt="Maquillaje vegano PURESKIN" class="imagen-hero" width="900" height="400">
+  </section>
+
+  <section id="catalogo" class="catalogo">
+    <h2>Catálogo de Productos</h2>
+    <div class="productos">
+
+      <div class="producto">
+        <img src="Sombra de ojos.png" alt="Sombra de Ojos">
+        <h3>Sombra de Ojos "Gema del Oceano"</h3>
+        <p>$65 MXN</p>
+        <button onclick="agregarAlCarrito('Sombra de Ojos', 250)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="Captura de pantalla 2025-10-17 095556.png" alt="Sombra de Ojos">
+        <h3>Sombra de Ojos "Fuego de Otoño"</h3>
+        <p>$65 MXN</p>
+        <button onclick="agregarAlCarrito('Sombra de ojos', 180)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="Captura de pantalla 2025-10-17 111309.png" alt="Sombra de Ojos">
+        <h3>Sombra de Ojos "Petalo de Durazno"</h3>
+        <p>$65 MXN</p>
+        <button onclick="agregarAlCarrito('Sombra de Ojos', 220)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="Captura de pantalla 2025-10-17 114955.png" alt="Polvo Compacto">
+        <h3>Polvo Compacto</h3>
+        <p>$170 MXN</p>
+        <button onclick="agregarAlCarrito('Tono 1', 310)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="Captura de pantalla 2025-10-17 115344.png" alt="Tono 2">
+        <h3>Tono 2</h3>
+        <p>$350 MXN</p>
+        <button onclick="agregarAlCarrito('Set de Brochas Veganas', 450)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="Captura de pantalla 2025-10-17 115451.png" alt="SERUM FACIAL">
+        <h3>SERUM FACIAL</h3>
+        <p>$190 MXN</p>
+        <button onclick="agregarAlCarrito('Delineador Líquido Vegano', 190)">Agregar al carrito</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="carrito" class="carrito">
+    <h2>🛒 Tu Carrito</h2>
+    <ul id="lista-carrito"></ul>
+    <p>Total: $<span id="total">0</span> MXN</p>
+    <div class="botones-carrito">
+      <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+      <button onclick="comprar()">Comprar con PayPal 💳</button>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>📩 contacto@pureskin.com.mx</p>
+    <p>📱 +52 9624266145</p>
+    <p>📍 Tuxtla Gutiérrez, Chiapas</p>
+  </section>
+
+  <footer>
+    <p>© 2025 PURESKIN - Belleza Vegana 🌸</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
